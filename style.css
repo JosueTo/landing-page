@@ -48,6 +48,7 @@ a, .secondary-text {
 .hero-text {
   display: flex;
   padding: 50px 100px;
+  gap: 16px;
 }
 
 .main-text {
@@ -73,6 +74,7 @@ a, .secondary-text {
   padding: 5px 20px;
   color: white;
   border-radius: 6px;
+  border: 0;
 }
 
 .image-placeholder {
@@ -86,4 +88,43 @@ a, .secondary-text {
   align-self: center;
   text-align: center;
   width: 100%;
+}
+
+.information {
+  padding: 25px 100px;
+}
+
+.info-header {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+}
+
+.info-image {
+  width: 150px;
+  height: 150px;
+  border: solid #3882f6 2px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.info-text {
+  color: #1f2937;
+  font-size: 18px;
+  text-align: center;
 }
