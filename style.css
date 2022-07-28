@@ -38,6 +38,52 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+a, .secondary-text {
   font-size: 18px;
   color: #e5e7eb
+}
+
+.hero-text {
+  display: flex;
+  padding: 50px 100px;
+}
+
+.main-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 58px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin: 10px 0;
+}
+
+.secondary-text {
+  margin-bottom: 10px;
+}
+
+.button {
+  align-self: flex-start;
+  background-color: #3882f6;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 6px;
+}
+
+.image-placeholder {
+  flex: 1;
+  background-color: rgba(238,238,238, 0.5);
+  color: #f9faf8;
+  display: flex;
+}
+
+.image-placeholder > p {
+  align-self: center;
+  text-align: center;
+  width: 100%;
 }
